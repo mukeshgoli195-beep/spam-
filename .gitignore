@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.env/
+*.env
+
+# Saved ML models (large binary files — regenerated via python ml/train.py)
+models/*.pkl
+models/history.json
+
+# Dataset (auto-downloaded)
+dataset/
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
